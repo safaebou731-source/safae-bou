@@ -4,5 +4,6 @@ int main(void){
     printf("veuiller entrer un montant :");
     scanf("%f",&M);
     M2=((M*5)/100)+M;
-    printf("avec taxe ajoutee :%.2f \n",M2);
+    printf("avec taxe ajoutee :%.2f \n",M2); 
+    return 0;
 }
